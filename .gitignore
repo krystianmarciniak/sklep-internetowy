@@ -4,10 +4,9 @@ backend/storage/
 backend/public/storage
 backend/bootstrap/cache
 backend/.env
-backend/.env.*
-!backend/.env.example
 backend/.phpunit.result.cache
 backend/composer.phar
+*.log
 
 # Frontend (React/Vite) – jeśli dodasz
 frontend/node_modules/
