@@ -1,0 +1,30 @@
+# Backend (Laravel)
+backend/vendor/
+backend/storage/
+backend/public/storage
+backend/bootstrap/cache
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/.phpunit.result.cache
+backend/composer.phar
+
+# Frontend (React/Vite) – jeśli dodasz
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+!frontend/.env.example
+
+# Ogólne / systemowe
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Bazy i dumpy
+*.sqlite
+*.sql
+
+# Inne
+coverage/

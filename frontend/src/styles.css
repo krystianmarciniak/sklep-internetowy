@@ -1,0 +1,221 @@
+/* Główna sekcja aplikacji */
+.App {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f4f6f9;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+/* Nagłówek strony */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 36px;
+  font-weight: 800;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+/* Nawigacja */
+nav {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2c3e50;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nav-link:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+/* Tabela ogólna */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Nagłówki tabeli */
+th {
+  background: linear-gradient(to right, #4f46e5, #4338ca);
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Komórki danych */
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 15px;
+}
+
+/* Zebra - naprzemienne wiersze */
+tr:nth-child(even) {
+  background-color: #f8f9fb;
+}
+
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+/* Podświetlenie wiersza na hover */
+tr:hover {
+  background-color: #edf2ff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Przyciski akcji */
+button {
+  padding: 10px 18px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Styl sekcji zamówień */
+.order-container {
+  background: #f9fafb;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.order-form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.order-form input {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  flex: 1 1 120px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background: linear-gradient(to right, #4f46e5, #4338ca);
+  color: white;
+  border-radius: 8px 8px 0 0;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f3f6f9;
+}
+
+.table tbody tr:hover {
+  background-color: #e2edf9;
+}
+
+/* Przyciski usuwania na czerwono */
+button.delete {
+  background-color: #e74c3c;
+}
+
+button.delete:hover {
+  background-color: #c0392b;
+}
+
+/* alert pod formularzem */
+.alert {
+  padding: 12px;
+  margin: 16px 0;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.alert.success {
+  background-color: #28a745; /* zielony */
+}
+
+.alert.error {
+  background-color: #dc3545; /* czerwony */
+}
+
+/* RESPONSYWNOŚĆ */
+@media (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 15px;
+  }
+
+  td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    padding-right: 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+  }
+}
