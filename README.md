@@ -19,15 +19,18 @@ Celem projektu jest automatyzacja procesu obsługi zamówień, integracja z baz�
 
 ##  Funkcjonalności
 
-###  Klient:
-- przeglądanie listy produktów,  ![Lista produktów](./screenshots/10_lista_produktow.png)
+
+- przeglądanie listy produktów, 
 - składanie nowych zamówień,  
 - sprawdzanie historii zamówień.  
+- dodawanie, edycja i usuwanie produktów,
 
-###  Administrator:
-- dodawanie, edycja i usuwanie produktów,  
+ ![Lista produktów](./screenshots/4_Panel_administratora.png)
+  
 - zarządzanie klientami,  
-- zmiana statusu zamówień (`Nowe`, `W realizacji`, `Zrealizowane`, `Anulowane`).  
+- zmiana statusu zamówień (`Nowe`, `W realizacji`, `Zrealizowane`, `Anulowane`).
+  
+ ![Lista produktów](./screenshots/3_status_realizacji.png)
 
 ---
 
@@ -56,15 +59,15 @@ Główne tabele:
 ## 🖥️ Widoki (React)
 - Lista produktów (z możliwością edycji przez administratora)
   
-  ![Lista produktów](./screenshots/10_lista_produktow.png)
+  ![Lista produktów](./screenshots/2_lista_produktow.png)
   
 - Dodawanie i usuwanie klientów
 
-  ![Lista produktów](./screenshots/8_dodawanie_uzytkownika.png)
+  ![Lista produktów](./screenshots/2_dodawanie_uzytkownika.png)
   
 - Panel zamówień (zmiana statusów)
 
- ![Lista produktów](./screenshots/8_dodawanie_uzytkownika.png)
+ ![Lista produktów](./screenshots/3_status_realizacji.png)
     
 - Historia zamówień klienta  
 - Responsywne UI (desktop, tablet, telefon)  
