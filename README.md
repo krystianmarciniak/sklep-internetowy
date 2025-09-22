@@ -55,9 +55,17 @@ Główne tabele:
 
 ## 🖥️ Widoki (React)
 - Lista produktów (z możliwością edycji przez administratora)
+  
   ![Lista produktów](./screenshots/10_lista_produktow.png)
-- Dodawanie i usuwanie klientów  
-- Panel zamówień (zmiana statusów)  
+  
+- Dodawanie i usuwanie klientów
+
+  ![Lista produktów](./screenshots/8_dodawanie_uzytkownika.png)
+  
+- Panel zamówień (zmiana statusów)
+
+ ![Lista produktów](./screenshots/8_dodawanie_uzytkownika.png)
+    
 - Historia zamówień klienta  
 - Responsywne UI (desktop, tablet, telefon)  
 
