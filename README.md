@@ -20,7 +20,7 @@ Celem projektu jest automatyzacja procesu obsługi zamówień, integracja z baz�
 ##  Funkcjonalności
 
 ###  Klient:
-- przeglądanie listy produktów,  
+- przeglądanie listy produktów,  ![Lista produktów](./screenshots/10_lista_produktow.png)
 - składanie nowych zamówień,  
 - sprawdzanie historii zamówień.  
 
